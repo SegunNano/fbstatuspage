@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FB STATUS PAGE</title>
+</head>
+
+<style>
+
+#status1, #status2, #status3, #status4, #profile {
+    height: 200px; 
+    width: 120px; 
+    background-color: aqua;
+    margin: 3px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#dp1, #dp2, #dp3, #dp4 {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border-color: rgb(13, 77, 214);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    margin: 20px 0px 0px 15px;
+}
+
+#dp1 {
+    background-image: url(status1dp.jpeg);
+}
+
+#dp2 {
+    background-image: url(status2dp.jpeg);
+}
+
+#dp3 {
+    background-image: url(status3dp.jpeg);
+}
+
+#dp4 {
+    background-image: url(status4dp.jpeg);
+}
+
+span, p {
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    padding: 180px 5px 0px 2px;
+    display: flex;
+    justify-self: left;
+}
+
+.statusbar {
+    display: flex;
+    justify-self: center;
+}
+
+#status1 {
+    background-image: url(status1.jpeg);
+}
+
+#status2 {
+    background-image: url(status2.jpeg);
+}
+#status3 {
+    background-image: url(status3.jpeg);
+}
+#status4 {
+    background-image: url(status4.jpeg);
+}
+#profile {
+    background-image: url(profile.jpeg);
+    position: relative;
+}
+
+#create {
+    height: 40px;
+    width: 120px; 
+    background-color: black;
+    margin-top: 160px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: small;
+    z-index: 1;
+    position: fixed;
+}
+
+i {
+margin: 0px 0px 0px 40px;
+z-index: 9;
+position: relative;
+}
+
+</style>
+
+<body>
+<div id="container">
+    <div class="statusbar">
+
+        <div id="profile">
+             
+            <div id="create">
+                <i class="fa fa-plus-circle fa-2xl" aria-hidden="true" style="color: black;"></i>
+            </div> 
+            <p>Create Story</p>
+        </div>
+        
+        <div id="status1">
+            <div id="dp1"></div>
+            <span>Abby Pearl</span>
+        </div>
+
+        <div id="status2">
+            <div id="dp1"></div>
+            <span>Alice Jumoke</span>
+        </div>
+
+        <div id="status3">
+            <div id="dp3"></div>
+            <span>Ade Ola</span>
+        </div>
+
+        <div id="status4">
+            <div id="dp4"></div>
+            <span>Abby Omowunmi...</span>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
